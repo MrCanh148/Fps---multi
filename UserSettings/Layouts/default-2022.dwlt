@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Animator
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 26938
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 26939
+  controlID: 20
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26835
+  controlID: 21
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26886
+  controlID: 108
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.16586028, y: 0.3880922, z: -0.07122374, w: 0.90377426}
     speed: 2
-    m_Value: {x: 0.16585979, y: 0.38809103, z: -0.071223535, w: 0.9037716}
+    m_Value: {x: 0.1658603, y: 0.38809222, z: -0.07122374, w: 0.9037743}
   m_Size:
     m_Target: 0.40615153
     speed: 2
@@ -941,14 +941,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.95300126
+    - e00: 0.81528467
       e01: 0
       e02: 0
-      e03: -32.410797
+      e03: 64.728035
       e10: 0
-      e11: 0.95300126
+      e11: 0.81528467
       e12: 0
-      e13: 120.077225
+      e13: 158.62447
       e20: 0
       e21: 0
       e22: 1
@@ -1012,7 +1012,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6ad9f7ff90daf7ffaa8bf8ffd08cf8ff06c5f8ff2cc6f8ffe6bcf9ff0cbef9ffec25faff2a27fafff4cffbff00d5fbff6ce1fcff92e2fcff6424feff8825feff308cfeff7c58fffff4ffffff
+      m_ExpandedIDs: b4c7feff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1081,7 +1081,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1089,30 +1089,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\GitHub\TestOuline
+  m_LastProjectPath: C:\GitHub\Fps---multi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4a60000
-    m_LastClickedID: 42708
-    m_ExpandedIDs: 00000000687600006a7600006c7600006e76000070760000727700008e770000b2770000ea770000a6780000fe780000f0a60000cab20000ceb20000d2b20000dab200000cbc000018bc0000
+    m_SelectedIDs: 62d10000
+    m_LastClickedID: 53602
+    m_ExpandedIDs: 00000000964100009e410000ba410000d6410000fe4100007e420000b243000006440000c2450000024a00007e4b000062d1000064d1000066d1000068d100006ad100006cd100006ed10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Model
-      m_OriginalName: Model
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30334
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000687600006a7600006c7600006e76000070760000727700008e770000b2770000ea770000a6780000fe780000cab20000ceb20000d2b20000dab200000cbc000018bc0000
+    m_ExpandedIDs: 00000000964100009e410000ba410000d6410000fe4100007e420000b243000006440000c2450000024a00007e4b000062d1000064d1000066d1000068d100006ad100006cd100006ed10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1153,7 +1153,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005e6b000000000000069800005a700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
